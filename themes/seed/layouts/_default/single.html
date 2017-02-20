@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+  <section>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </section>
+
+  <section>
+    <h2>
+      When can I try Seed?
+    </h2>
+    <p>
+      Fill in your name and email, and submit your application — we will be in touch when we're ready for the first batch of testers.
+    </p>
+    {{ partial "mailchimp.html" . }}
+  </section>
+
+{{ partial "footer.html" . }}

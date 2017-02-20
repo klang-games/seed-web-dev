@@ -1,0 +1,196 @@
+html {
+  height: 100%
+}
+
+body {
+	height: 100%;
+	background: radial-gradient(50% 50% at center, #006D82, #000), black;
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+	background-position: center 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#planet_wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+#planet {
+	width: 3840px;
+	height: 3840px;
+	background: black;
+	border-radius: 1920px;
+	position: relative;
+	top: 300px;
+	left: 50%;
+	margin-left: -1920px;
+}
+
+a, h1, h2, p, label {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px solid #006D82;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 100;
+	margin: 32px 0px 0px 0px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 200;
+}
+
+header {
+	background: url(../svg/seed-logo.svg);
+	background-repeat: no-repeat;
+	background-size: 720px 210px;
+	background-position: top left;
+	width: 720px;
+	height: 210px;
+	margin: 60px auto 100px auto;
+	padding: 0px 116px 0px 0px;
+}
+
+section, footer {
+	margin: 0px auto 0px auto;
+	width: 544px;
+}
+
+input {
+	width: 544px;
+	height: 48px;
+	border: none;
+	border-radius: 8px;
+	font-size: 20px;
+	margin: 32px 0px 0px 0px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+input.button {
+	width: 240px;
+	height: 60px;
+	border-radius: 30px;
+	background: url(../svg/submit-btn.svg), #006D82;
+	background-repeat: no-repeat;
+	background-size: 170px 24px;
+	background-position: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	box-shadow: 0px 0px 64px 1px #006D82;
+	cursor: pointer;
+}
+
+input.button:hover {
+	background-color: #008799;
+}
+
+.submit-btn {
+	text-align: center;
+	margin: 32px 0;
+}
+
+section.about {
+	text-align: center;
+	padding: 32px 0px 0px 0px;
+}
+
+section.about a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 100;
+	border-bottom: none;
+}
+
+section.about a:hover {
+	color: #008799;
+}
+
+footer {
+	padding: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+footer a {
+	color: #666;
+	font-weight: 300;
+	border-bottom: none;
+}
+
+footer a:hover {
+	color: #999;
+}
+
+@media only screen
+	and (min-device-width: 320px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	body {
+  		padding: 0px 0px 64px 0px;
+  	}
+  	h1 {
+		font-size: 80px;
+		font-weight: 200;
+		margin: 128px 0px 0px 0px;
+		}
+  	h2 {
+		font-size: 60px;
+		font-weight: 200;
+		margin: 96px 0px 0px 0px;
+		}
+		p, footer ul {
+			font-size: 40px;
+			line-height: 60px;
+			font-weight: 200;
+		}
+  	section, footer {
+			width: 800px;
+		}
+		input {
+			width: 736px;
+			height: 96px;
+			font-size: 50px;
+			margin: 64px 0px 0px 0px;
+		}
+		input.button {
+			width: 480px;
+			height: 120px;
+			border-radius: 60px;
+			background-size: 340px 48px;
+			box-shadow: 0px 0px 128px 2px #006D82;
+		}
+		section.about {
+			padding: 64px 0px 0px 0px;
+		}
+		section.about a {
+			font-size: 50px;
+			font-weight: 300;
+			color: #fff;
+		}
+		footer {
+			padding: 64px 0;
+			font-size: 30px;
+		}
+}

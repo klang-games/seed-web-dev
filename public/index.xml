@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEED Industries Ltd.</title>
+    <link>/index.xml</link>
+    <description>Recent content on SEED Industries Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What is Seed?</title>
+      <link>/what-is-seed/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/what-is-seed/</guid>
+      <description>
+
+&lt;p&gt;Seed is a continuous persistent simulation where the player&amp;rsquo;s goal is to colonise a vast planet to ensure the survival of humanity. Using unique gameplay based on managing multiple characters, players collaborate to create a world driven by real emotion and ambition.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-vision&#34;&gt;The Vision&lt;/h2&gt;
+
+&lt;p&gt;A virtual world with big vibrant cities where you can enter every house and find fully furnished apartments on every floor. Streets crowded with people, life, everywhere. People may be hungry on their way to have dinner, or tired on their way to bed. A car might be on the way out of town, or shipping a package to the suburbs. Every entity driven by purpose. Infrastructure, traffic and on-going construction. Weather, seasons and natural disasters.&lt;/p&gt;
+
+&lt;p&gt;The depth of a community driven by purpose is endless and therefore simply impossible to author, but when hundreds of thousands of players start building and working to gather anything is possible.&lt;/p&gt;
+
+&lt;p&gt;Many game developers chose to build simplified versions of our reality: they create cities which might look great but are more like movie sets with nothing going on in the background. All the houses are blocked from entering because there is nothing behind the doors, all the people on the street just walk back and forth without an agenda, cars drive aimlessly around. This experience is fake.&lt;/p&gt;
+
+&lt;p&gt;The main goal of these environments is to immerse players, but a city that isn’t driven by purpose will never fully achieve that. A fake city needs to be handcrafted, every single thing needs to be designed, built and placed making the amount of effort and cost immense, additionally the city doesn’t grow or evolve, it’s static, it’s dead.&lt;/p&gt;
+
+&lt;p&gt;We’re not here to create an artificial experience, we’re building a virtual world driven with real emotion and ambition. We take inspiration from life itself, bringing interaction in a virtual world to a whole new level.&lt;/p&gt;
+
+&lt;p&gt;Conventional “theme park” based games have an expiration date; when players are done with the content, there is nothing left, people leave. We’re creating a sandbox, where the players themselves are the content, and as long as we provide them with the correct tools to entertain each other with, the content will always be fresh.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
