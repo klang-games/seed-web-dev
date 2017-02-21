@@ -4,10 +4,10 @@ html {
 
 body {
 	height: 100%;
-	background: radial-gradient(50% 50% at center, #006D82, #000), black;
-	background-repeat: no-repeat;
-	background-size: 1920px 1080px;
-	background-position: center 0px;
+	background: radial-gradient(50% 50% at center, #006D82, rgba(0,0,0,0)), radial-gradient(50% 100% at center, rgba(0,0,0,1), rgba(0,0,0,0)), url(../svg/stars.svg), black;
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-size: 1920px 1080px, 1920px 1080px, 1920px 1080px;
+	background-position: center 0px, center 0px, top -50px center;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -78,10 +78,12 @@ input.button {
 	font-size: 30px;
 	box-shadow: 0px 0px 64px 1px #006D82;
 	cursor: pointer;
+	transition: 0.5s ease;
 }
 
 input.button:hover {
 	background-color: #008799;
+	box-shadow: 0px 0px 64px 2px #008799;
 }
 
 .submit-btn {
@@ -100,6 +102,7 @@ section.about a {
 	font-size: 22px;
 	font-weight: 100;
 	border-bottom: none;
+	transition: 0.5s ease;
 }
 
 section.about a:hover {
@@ -116,13 +119,14 @@ footer a {
 	color: #666;
 	font-weight: 300;
 	border-bottom: none;
+	transition: 0.5s ease;
 }
 
 footer a:hover {
 	color: #999;
 }
 
-#planet_wrapper {
+#the_wrapper {
 	width: 100%;
 	height: 1080px;
 	overflow: hidden;
@@ -141,6 +145,22 @@ footer a:hover {
 	top: 300px;
 	left: 50%;
 	margin-left: -1920px;
+}
+
+#info_btn {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: url(../svg/info-icon.svg);
+	background-repeat: no-repeat;
+	opacity: 0.4;
+	transition: 0.5s ease;
+}
+
+#info_btn:hover {
+	opacity: 0.8;
 }
 
 @media only screen
@@ -192,5 +212,12 @@ footer a:hover {
 		footer {
 			padding: 64px 0;
 			font-size: 30px;
+		}
+		#info_btn {
+			width: 52px;
+			height: 52px;
+			top: 24px;
+			right: 24px;
+			position: fixed;
 		}
 }
