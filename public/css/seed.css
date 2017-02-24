@@ -150,7 +150,7 @@ footer a:hover {
 #info_btn {
 	width: 32px;
 	height: 32px;
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	right: 20px;
 	background: url(../svg/info-icon.svg);
@@ -218,6 +218,5 @@ footer a:hover {
 			height: 52px;
 			top: 24px;
 			right: 24px;
-			position: fixed;
 		}
 }
